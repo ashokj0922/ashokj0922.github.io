@@ -28,11 +28,20 @@ sidebar:
           level: Fluent
 
     interests:
-      title: Interests
-      info:
-        - item: Machine Learning Research
-        - item: Scientific Computing
-        - item: Data Visualization
+        title: Interests
+        info:
+          - item: Convolutional Neural Networks
+          - item: Sequential Networks (RNN, LSTM, GSN, LLM)
+          - item: Structuring Machine Learning Projects
+          - item: Improving Deep Neural Networks (Hyperparameter Tuning, Regularization, Optimization)
+          - item: Advanced Scientific Computing
+          - item: Scientific Visualization
+          - item: Big Data
+          - item: Computer Graphics
+          - item: Digital Image Processing
+          - item: Machine Learning
+          - item: Physics-Based Animation
+
 
 career-profile:
     title: Career Profile
@@ -129,16 +138,33 @@ projects:
 publications:
     title: Publications
     intro: |
-      Published works in high-impact journals focused on scientific computing and ML.
+      Published works in high-impact journals focused on scientific computing and visualization.
     papers:
-      - title: "Data Transformations on FEM Solutions"
+      - title: "The effect of data transformations on scalar field topological analysis of high-order FEM solutions"
         link: "#"
-        authors: Jallepalli, A., Levine, J.A., Kirby, R.M.
-        conference: IEEE TVCG, 2019
-      - title: "Efficient Algorithms for Line-SIAC Filtering"
+        authors: Jallepalli Ashok, Joshua A. Levine, Robert M. Kirby
+        conference: IEEE Transactions on Visualization and Computer Graphics, 2019
+      - title: "Efficient algorithms for the Line-SIAC filter"
         link: "#"
-        authors: Jallepalli, A., Kirby, R.M.
+        authors: Jallepalli Ashok, Robert M. Kirby
         conference: Journal of Scientific Computing, 2019
+      - title: "Adaptive characteristic length for L-SIAC filtering of FEM data"
+        link: "#"
+        authors: Jallepalli Ashok, Robert Haimes, Robert M. Kirby
+        conference: Journal of Scientific Computing 79.1, 2019
+      - title: "On the treatment of field quantities and elemental continuity in FEM solutions"
+        link: "#"
+        authors: Jallepalli Ashok, Julia Docampo-Sanchez, Jennifer K. Ryan, Robert Haimes, Robert M. Kirby
+        conference: IEEE Transactions on Visualization and Computer Graphics 24.1, 2017
+      - title: "Hexagonal smoothness-increasing accuracy-conserving filtering"
+        link: "#"
+        authors: Mirzargar Mahsa, Jallepalli Ashok, Jennifer K. Ryan, Robert M. Kirby
+        conference: Journal of Scientific Computing 73, no. 2-3, 2017
+      - title: "Deformation embedding for point-based elastoplastic simulation"
+        link: "#"
+        authors: Ben Jones, Ward Stephen, Jallepalli Ashok, Perenia Joseph, Bargteil W. Adam
+        conference: ACM Transactions on Graphics (TOG) 33, no. 2, 2014
+
 
 skills:
     title: Skills & Proficiency
