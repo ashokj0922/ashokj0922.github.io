@@ -112,13 +112,44 @@ experiences:
           - Created network protocols and web interfaces for switches.
 
 certifications:
-    title: Certifications
+    title: Published Software
     list:
-      - name: Published Software Contributions
+      - name: Tool for High Order FEM visualization
         start: 2010
         organization: Nektar++
         details: |
           - Line-SIAC filter for post-processing high-order FEM data.
+    title: Certifications
+    list:
+      - name: Generative AI for Everyone
+        start: Feb 2024
+        organization: DeepLearning.AI
+        credentialid: 2T67WE5ZC9XD
+      - name: Deep Learning Specialization
+        start: Jan 2024
+        organization: DeepLearning.AI
+        credentialid: 34YTE6QLVGB6
+      - name: Sequence Models
+        start: Jan 2024
+        organization: DeepLearning.AI
+        credentialid: J7BNTLS55MHU
+      - name: Convolutional Neural Networks
+        start: Nov 2023
+        organization: DeepLearning.AI
+        credentialid: NJ2S5VHQN4CQ
+      - name: Structuring Machine Learning Projects
+        start: Nov 2023
+        organization: DeepLearning.AI
+        credentialid: NUXDDPEXESN5
+      - name: Improving Deep Neural Networks: Hyperparameter Tuning, Regularization, and Optimization
+        start: Oct 2023
+        organization: Coursera
+        credentialid: HED74T4SAALL
+      - name: Neural Networks and Deep Learning
+        start: Oct 2023
+        organization: Coursera
+        credentialid: L23LML5436QN
+
 
 projects:
     title: Projects
