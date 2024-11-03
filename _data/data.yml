@@ -111,7 +111,7 @@ experiences:
         details: |
           - Created network protocols and web interfaces for switches.
 
-Published Software:
+published-software:
     title: Published Software
     list:
       - name: Tool for High Order FEM visualization
@@ -120,7 +120,7 @@ Published Software:
         details: |
           - Line-SIAC filter for post-processing high-order FEM data.
 
-Certifications:
+certifications:
     title: Certifications
     list:
       - name: Generative AI for Everyone
