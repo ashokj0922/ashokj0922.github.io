@@ -13,7 +13,7 @@ sidebar:
     phone: (516) 673-5234
     timezone: America/New_York
     citizenship: Green Card Holder
-    website: https://example.com
+    website: https://ashokj0922.github.io/
     linkedin: ashok123
     github: # Add if available
     twitter: # Add if available
@@ -111,7 +111,7 @@ experiences:
         details: |
           - Created network protocols and web interfaces for switches.
 
-certifications:
+Published Software:
     title: Published Software
     list:
       - name: Tool for High Order FEM visualization
@@ -119,6 +119,8 @@ certifications:
         organization: Nektar++
         details: |
           - Line-SIAC filter for post-processing high-order FEM data.
+
+Certifications
     title: Certifications
     list:
       - name: Generative AI for Everyone
