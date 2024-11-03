@@ -1,0 +1,48 @@
+{% assign published-software = site.data.data.published-software %} {% if published-software %}
+<section class="section published-software-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ published-software.title }}
+  </h2>
+
+  {% for published-software in published-software.list %}
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="cert-title">{{ published-software.name }}</h3>
+        <div class="time">
+          {{ published-software.start }} {% if published-software.end %} - {{
+          published-software.end }} {% endif %}
+        </div>
+      </div>
+      <!--//upper-row-->
+
+      <div class="second-upper-row">
+        <div class="cert-org">
+          {{ published-software.organization }} {% if published-software.credentialid %}
+          ({{ published-software.credentialid }}) {% endif %}
+        </div>
+        {% if published-software.credentialurl %}
+        <div class="cert-url">
+          <a
+            href="//{{ published-software.credentialurl }}"
+            target="_blank"
+            rel="noreferrer nofollow noopener"
+            >{{ published-software.credentialname }}</a
+          >
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    <!--//meta-->
+
+    <div class="details">{{ published-software.details | markdownify }}</div>
+  </div>
+  <!--//item-->
+  {% endfor %}
+</section>
+<!--//section-->
+{% endif %}
